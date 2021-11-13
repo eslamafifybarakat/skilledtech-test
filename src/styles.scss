@@ -1,1 +1,155 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+  font-family: cursive;
+
+}
+
+.userimg {
+  width:100%;
+  height: 50px;
+}
+.custom-p {
+  opacity: 75%;
+  font-weight: lighter;
+  line-height: 1.8;
+}
+.custom-main-p {
+  opacity: 90%;
+  font-weight: normal;
+  line-height: 1.8;
+}
+.custom-h {
+  margin-left: 5px;
+  margin-top: 20px;
+}
+.custom-border {
+  padding: 20px;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  border-radius: 5px;
+}
+.border-likes-comments{
+  padding-top: 5px;
+  border-top: 1px solid rgb(216, 214, 214);
+  border-bottom: 1px solid rgb(216, 214, 214);
+  border-radius: 4px;
+}
+.border-cpmments {
+  border: 1px solid rgb(216, 214, 214);
+  border-radius: 10px;
+  padding-top: 5px;
+}
+.border-container {
+  border-radius: 5px;
+  padding: 20px 20px;
+  box-shadow: 0 4px 8px 0 rgba(233, 233, 233, 0.3), 0 6px 20px 0 rgba(214, 214, 214, 0.29);
+}
+.show_more{
+  background: #7ecbff5e;
+  border: none;
+  box-sizing: border-box;
+  color: #fff;
+  font-size: 16px;
+  margin-top: 24px;
+  padding: 12px;
+  text-shadow: none;
+  width: 100%;
+  font-weight:bold;
+  position: relative;
+  text-align: center;
+  vertical-align: middle;
+  border-radius: 7px;
+}
+.show_more:hover {
+  background: #7ecbff;
+}
+
+.comments-number {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 50%;
+}
+.comments-number p {
+  float: right;
+  padding-top: 5px;
+}
+.comments-number-left {
+  font-size: 18px;
+  font-weight: 500;
+  opacity: 50%;
+}
+.custom-i {
+  font-size: 25px;
+}
+.comments-number-left p {
+  float: left;
+  padding-top: 5px;
+}
+.custom-radius {
+  border-radius: 30px;
+  min-height: 45px;
+  height: fit-content;
+  justify-content: center;
+  width: 100%;
+}
+input {
+  padding: 5px 7px;
+}
+.custom-border-content {
+  padding: 20px;
+  border-bottom: 1px solid rgb(216, 214, 214);
+  border-radius: 2px;
+}
+.tools_comment{
+  font-size: 16px;
+  line-height: 1.358;
+  font-weight: bold;
+
+}
+.tools_comment a{
+  color: #4267b2;
+  cursor: pointer;
+  text-decoration: none;
+  font-weight: bold;
+}
+.tools_comment span{
+  color: #90949c;
+  font-weight: bold;
+}
+
+@media (max-width: 767px) {
+  .first-part h6 {
+    font-size: smaller;
+  }
+  .second-part {
+    padding: 0 !important;
+    margin: 0 !important;
+    font-size: smaller;
+  }
+  .custom-main-p {
+    font-size: smaller;
+    line-height: 1.6;
+    padding-right: 5px !important;
+    padding-left: 3px !important;
+  }
+  .comments-number p,
+  .comments-number-left p {
+    font-size: smaller;
+  }
+  .border-likes-comments {
+    padding-top: 7px !important;
+  }
+  .special-sm {
+    margin: 0 !important;
+    padding-left: 0 !important;
+  }
+  .custom-p-sm {
+    margin-top: 0 !important;
+  }
+  .custom-p {
+    line-height: 1.6;
+    font-size: smaller;
+  }
+  .new-comment {
+    padding: 0 !important;
+    margin: 0 !important;
+  }
+}
